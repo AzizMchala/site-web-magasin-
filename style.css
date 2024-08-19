@@ -1,0 +1,128 @@
+.parent
+{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.parent .one p
+{
+    font-size: 170%;
+}
+.parent .two
+{
+    display: flex;
+    align-items: center;
+    
+}
+.parent .two h5
+{
+    padding: 0% 10% 0% 0%;
+}
+.parent .two span
+{
+    color: red;
+}
+.parent .lord
+{
+    display: flex;
+    padding: 0% 0% 0% 10%;
+}
+.parent .two select
+{
+    border: 0;
+    
+    background-color: antiquewhite;
+
+}
+.parent2
+{
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
+}
+.parent2 .navbar1 {
+    list-style: none;
+    display: flex;
+    align-items: start;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+   
+  }
+  
+  .parent2 .navbar1 li {
+    margin-right: 20px;
+  }
+  
+  .parent2 .navbar1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .parent2 .navbar1 a:hover {
+    text-decoration: underline;
+  }
+  
+  .parent2 .navbar2 {
+    list-style: none;
+    display: flex;
+    align-items: end;
+    padding: 10px;
+    background-color: #333;
+    padding-left: 30%;
+    color: #fff;
+    
+  }
+  
+  .parent2 .navbar2 li {
+    margin-right: 20px;
+  }
+  
+  .parent2 .navbar2 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .parent2 .navbar2 a:hover {
+    text-decoration: underline;
+  }
+  
+  .parent3 img
+  {
+    display: flex;
+    width: 82%;
+    height: 550px;
+    position: absolute;
+    z-index: 0;
+    left: 140px;
+  }
+  form .formulaire
+  {
+    color: white;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid black;
+    background-color: rgb(rgb(95, 83, 83), rgb(62, 172, 62), blue,0.5);
+  }
+  .formulaire
+  {
+    position: absolute;
+    z-index: 2;
+   left: 300px;
+   top: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    width: 30%;
+    height: 30%;
+    align-items: center;
+    background-color: rgb(rgb(95, 83, 83), rgb(62, 172, 62), blue,0.5);
+  }
